@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-family: Arial;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.player-button{
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  margin-right: 5px;
+}
+
+.button-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.result-info{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.scores-info{
+  margin-top: 60px;
+}
+
+.reset-button,
+.autoplay-button{
+  padding: 8px 15px;
+  font-size: 15px;
+  border: none;
+  margin-right: 5px;
+}
+
+.yes-button{
+  background-color: green;
+  color: white;
+}
+
+.no-button{
+  background-color: red;
+  color: white;
+}
+
+.yes-button,
+.no-button{
+  border: none;
+}
